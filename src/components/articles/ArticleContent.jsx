@@ -2,7 +2,7 @@ var React = require('react');
 
 var ArticleContent = React.createClass({
     render: function() {
-        return (<p>{this.props.articleContentCopy}</p>);
+        return (<p>{this.props.articleContentText}</p>);
     }
 });
 
