@@ -1,5 +1,5 @@
 var React   = require('react');
-var Article = require('./Article.jsx');
+var Article = require('./articles/Article.jsx');
 
 var idCounter = 0;
 
@@ -38,9 +38,9 @@ var articles = [
     }
 ];
 
-var ArticleList = React.createClass({
+var List = React.createClass({
     render: function() {
-        
+
         var listOfArticles = articles.map(function(article) {
             return (<Article key={article.id} title={article.title} subtitle={article.subtitle} content={article.content} thumb={article.thumb} location={article.location} />);
         });
@@ -49,4 +49,4 @@ var ArticleList = React.createClass({
     }
 });
 
-module.exports = ArticleList;
+module.exports = List;
