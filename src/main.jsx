@@ -1,5 +1,5 @@
-var React       = require('react');
-var ReactDOM    = require('react-dom');
-var ArticleList = require('./components/articles/ArticleList.jsx');
+var React    = require('react');
+var ReactDOM = require('react-dom');
+var List     = require('./components/List.jsx');
 
-ReactDOM.render(<ArticleList />, document.getElementById('article-list'));
+ReactDOM.render(<List />, document.getElementById('article-list'));
