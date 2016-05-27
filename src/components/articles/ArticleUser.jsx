@@ -7,3 +7,5 @@ var ArticleUser = React.createClass({
         );
     }
 });
+
+module.exports = ArticleUser;
